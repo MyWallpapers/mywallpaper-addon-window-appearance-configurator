@@ -35,7 +35,7 @@ Un processus gardien, lancé sans fenêtre, attend le processus propriétaire ex
 
 ## Construction locale
 
-Prérequis : Visual Studio 2022 C++ x64, CMake, Node.js et Python pour les tests Windows locaux. La dépendance JSON sous MIT est incluse dans le dépôt : aucun checkout du moteur n’est nécessaire. Le SDK public MyWallpaper est utilisé séparément pour valider le manifeste, via `MW_CORE_ROOT` si son checkout n’est pas voisin.
+Prérequis : Visual Studio 2022 ou 2026 C++ x64 avec son CMake intégré, Node.js et Python pour les tests Windows locaux. Le générateur et l'instance CMake suivent la génération Visual Studio effectivement installée. La dépendance JSON sous MIT est incluse dans le dépôt : aucun checkout du moteur n’est nécessaire. Le SDK public MyWallpaper est utilisé séparément pour valider le manifeste, via `MW_CORE_ROOT` si son checkout n’est pas voisin.
 
 ```powershell
 node tools/generate.mjs --check

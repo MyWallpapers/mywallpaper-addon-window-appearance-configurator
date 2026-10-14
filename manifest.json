@@ -2,7 +2,7 @@
   "runtime": "native-v1",
   "name": "Apparence des fenêtres",
   "description": "Profils clairs et sombres, cadres dégradés, titres, ombres et règles par application pour Windows.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "deviceSettingsVersion": "1",
   "settings": [
     {

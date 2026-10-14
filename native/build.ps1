@@ -4,8 +4,15 @@ $repoRoot = [IO.Path]::GetFullPath((Join-Path $PSScriptRoot '..'))
 if (!$BuildDirectory) { $BuildDirectory = Join-Path $repoRoot '.build' }
 $BuildDirectory = [IO.Path]::GetFullPath($BuildDirectory)
 $vswhere = Join-Path ${env:ProgramFiles(x86)} 'Microsoft Visual Studio\Installer\vswhere.exe'
-$installation = & $vswhere -latest -version '[17.0,18.0)' -products '*' -requires Microsoft.VisualStudio.Component.VC.Tools.x86.x64 -property installationPath
-if (!$installation) { throw 'Visual Studio 2022 C++ x64 build tools are required.' }
+$instances = @((& $vswhere -latest -products '*' -requires Microsoft.VisualStudio.Component.VC.Tools.x86.x64 -format json) | ConvertFrom-Json)
+if ($LASTEXITCODE -or !$instances.Count) { throw 'Visual Studio C++ x64 build tools are required.' }
+$instance = $instances[0]
+$installation = $instance.installationPath
+$generator = switch (([version]$instance.installationVersion).Major) {
+    17 { 'Visual Studio 17 2022' }
+    18 { 'Visual Studio 18 2026' }
+    default { throw "Unsupported Visual Studio generation: $($instance.installationVersion)" }
+}
 $cmakeBin = Join-Path $installation 'Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin'
 $cmake = Join-Path $cmakeBin 'cmake.exe'
 $ctest = Join-Path $cmakeBin 'ctest.exe'
@@ -15,7 +22,7 @@ try {
     if ($LASTEXITCODE) { throw 'Generated manifest/profile contract is stale.' }
     & node tests/private-capability.test.mjs
     if ($LASTEXITCODE) { throw 'Optional capability request proof failed.' }
-    & $cmake -S $repoRoot -B $BuildDirectory -G 'Visual Studio 17 2022' -A x64
+    & $cmake -S $repoRoot -B $BuildDirectory -G $generator -A x64 "-DCMAKE_GENERATOR_INSTANCE=$installation"
     if ($LASTEXITCODE) { throw 'CMake configuration failed.' }
     & $cmake --build $BuildDirectory --config Release --parallel 4
     if ($LASTEXITCODE) { throw 'Windows build failed.' }

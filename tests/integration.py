@@ -112,7 +112,7 @@ try:
             key, opacity, flags = ctypes.c_uint32(), ctypes.c_ubyte(), ctypes.c_uint32()
             return opacity.value if user32.GetLayeredWindowAttributes(second['hwnd'],ctypes.byref(key),ctypes.byref(opacity),ctypes.byref(flags)) else None
         values = {'targetApps':'window_appearance_tests.exe', 'profile':'aurora', 'windowOpacity':85, 'inactiveOpacity':85, 'rule1Enabled':True,'rule1Apps':'appearance_secondary_fixture.exe','rule1Profile':'graphite','rule1Opacity':70}
-        init = {'type':'init','v':5,'addonId':'dev-a06-wire','artifactDigest':'sha256:'+'a'*64,'version':'0.1.0','targetArchitecture':'windows-x86_64','scratchDirectory':scratch,'layerSettings':{},'deviceSettings':values}
+        init = {'type':'init','v':5,'addonId':'dev-a06-wire','artifactDigest':'sha256:'+'a'*64,'version':json.loads((root / 'manifest.json').read_text(encoding='utf8'))['version'],'targetArchitecture':'windows-x86_64','scratchDirectory':scratch,'layerSettings':{},'deviceSettings':values}
         process, events = launch()
         companions.append(process)
         # Real split framing, without shrinking the public maximum chunk length.
