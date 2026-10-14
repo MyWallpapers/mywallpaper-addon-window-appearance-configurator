@@ -1,23 +1,23 @@
 {
-  "date": "2026-10-14T21:05:23.577Z",
+  "date": "2026-10-14T21:11:56.921Z",
   "scope": "exact-source-qualification-evidence-not-a-decision",
   "sources": {
     ".gitattributes": "d09e57a6781da66ccf99855f4c652dd23dc23e728c6fb828d385cfc2037d6c9b",
     ".gitignore": "01522be1e5206982bc7734e08511402cd2ad864a5297fabbb29c25238b2a4777",
-    "CMakeLists.txt": "2532f40f1953e717808c279f203a933c32ffcfbc1148743de80059d122911e5b",
+    "CMakeLists.txt": "3ee35ad8d00053481ac2454f660a30bf5bdf431e37debdd08657246dfc6c869b",
     "LICENSE": "07c869e8100bedf67079f778daa5ef535b99579ba175f5764cdda1580a7d2f8f",
-    "README.md": "e0b92608a589938d61c668717930a9dfe197da49ca82bf0012ef585a56931fec",
+    "README.md": "946e42de39fa966c8433d3fabeb63d984e329e4c8f2580127adbf707ac1949d8",
     "THIRD_PARTY_NOTICES.md": "959df0cda62e42037b6f7065456a809f42a41388e16c1e4af31d1e7a6edc0798",
     "contracts/private-symbol-request.schema.json": "225ddac969ab11cca7875199518c3b72863c70dee90524e1615a523270b26f68",
     "docs/native-capabilities.md": "f97faae711270b654d4f2dc23224419e5a2eee78e609703b1806937912b9eedd",
     "docs/qualification.md": "d74bd93dcee16e2d1fa56139bd5ae689e572a1741c3ddca264801187ca34079f",
-    "docs/release-qualification-2026-10-14.md": "1ff30fe6fada362edc22223ec8026693307ceeab1acb85940d6a4e3e6dc4f2d4",
+    "docs/release-qualification-2026-10-14.md": "b44e4aa400c85ed4043fcb7458f3fc8b363bcc7feb5a3138f2c7ed83c27f321c",
     "docs/source-study.md": "375175dcae06b0bcce8f1f38b67eaff12f05aafdf05f6061e3d047ed8b0196e6",
     "evidence/a06-sources.json": "afba3a123c2f9379decaffc8102bdb955deddfe707b8d779b423e8207409cf99",
     "include/appearance.hpp": "666583dbe030a91b43728f65215c4ed1e17d0ad8475bad65bbbcd85889645fd5",
-    "manifest.json": "934b3c2cc396156f3086840cfb684c6b8d709d15fff0c1eb1160e359498df401",
+    "manifest.json": "45e76b0467f87068c58fe9d7ebcd452ddae5a6d26432bdf9466fea980cd5cb1b",
     "mywallpaper.config.json": "ad6925c28b287ddae87283d0c6281676d16014d015a8eeb5b7e577d116682dbf",
-    "native/build.ps1": "48a9d5da1ea51dbce36e51e8a43af122e078d796219cd8a6bdc84150b5827157",
+    "native/build.ps1": "a23aadfa122aa9cc2f9d7339c1304a6e4d03083ee50ce6a11514c8cbf291578b",
     "notices/native-engine.LICENSE.MIT": "07c869e8100bedf67079f778daa5ef535b99579ba175f5764cdda1580a7d2f8f",
     "notices/nlohmann-json.LICENSE.MIT": "46a65cffd1ea955132d95a8dd921640714a8d6b537d2e4e482d31145ae95b603",
     "profiles/profiles.json": "d67cc268ed521d3419179b51ca8855a2de62b0244ed86fe465e2143875867ea4",
@@ -25,14 +25,14 @@
     "src/main.cpp": "470a7dccd9c85e1179387beaf4c25cf577a7b3b868cf0653c6bfe0b7130b5169",
     "src/renderer.cpp": "b97da0e8f1a653dee49f077efc4425733066adfe2c322bd640cee65585418e2a",
     "src/runtime.cpp": "5622cbf65fb2009082198aca9547c4c462f0484c3ac6e7073546b5e4beca1be9",
-    "src/settings_generated.hpp": "48a9b489ec009ea584b7442c0098a544e72103889650a45b8a9e29476a4c85b5",
+    "src/settings_generated.hpp": "e4f0fb49ab13294dc4c68730d21fe5c1867034993080751bcbac840f9e328d2f",
     "src/wire.cpp": "5803b1995cb8d5cdf298259fae409d355364400fcf6870ddc7d99247604e0b3a",
-    "tests/integration.py": "19d039120ad70745719b670d11e6aaaaeaa6f35424617cf17a5dabe17df11b87",
+    "tests/integration.py": "87880a9c7d294644fcce5fcf51d89a8ca305792339009eaca6ddb6f427d54790",
     "tests/private-capability.test.mjs": "55e8782bd3d4f745869ce86ec6bdb17f4325bd4f0277e0ea7ef211e93bf394ff",
     "tests/tests.cpp": "c49f29b53665eb459be2c3377d3524044924a235b318fc0e0660f9d25d316573",
     "third_party/nlohmann/json.hpp": "aaf127c04cb31c406e5b04a63f1ae89369fccde6d8fa7cdda1ed4f32dfc5de63",
     "tools/evidence.mjs": "90c15f2a49bdc9a793496633af560343033e4b60918e91ab6063e99208abc3bf",
-    "tools/generate.mjs": "53ed5fc1812c28f9f9ce2e57d56b1f6d460a75e88e70a7bf4febbc5b60d34d2f",
+    "tools/generate.mjs": "d92714447b9116af5098f8476c065f095293ebb24c0af21e50ba716d9d342fe8",
     "tools/private-capability.mjs": "922937b6b5cbb7586ed703e5f5dfdf85fa40c286ee8c2df6eba015c6e616cf85",
     "tools/validate-manifest.mjs": "d448972d2e8e3b193a577b9f5f2611e4e06f86d9facaaf35072c4b201db6804d"
   },
@@ -44,7 +44,7 @@
   },
   "binary": {
     "path": "native/out/windows-x86_64/companion.exe",
-    "sha256": "d019333d8b5cb5e96a8b8b77c831a5093bd868f08054fde8bdb71b00434bf413"
+    "sha256": "93cf281a3fcaca7e8bf343e00ad0454f730a4962f4613467426c188992335861"
   },
   "results": {
     "windows": {

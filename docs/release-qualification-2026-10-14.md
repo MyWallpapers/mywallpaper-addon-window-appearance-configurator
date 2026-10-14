@@ -1,4 +1,4 @@
-# Contrôle de publication 0.1.0
+# Contrôle de publication 0.1.0 / 0.1.1
 
 Preuve d'implémentation consommable du 14 octobre 2026, sans nouvelle décision. Sources examinées : `dcf3139051802056669434dc3eb6be91dda326b9`. Ledger MyWallpaper courant SHA-256 : `5c198b56bd404e3e035f31687e2ed23b7c0d87655e998bd0940fa2649ddae993` ; référence core `299548ebcc20770fd73b10bdffd5f05586fbe126`. Les commits suivants de qualification ne modifient pas le comportement livré.
 
@@ -30,3 +30,9 @@ Aucun changement du core MyWallpaper, du moteur, de schéma partagé ni du ledge
 ## Limites
 
 Ces contrôles ne certifient pas tous les cadres Chromium/WinUI/Office, le flou visible sur une application tierce, les lecteurs d'écran, Windows 10 ou le multi-écran physique. Les attributs DWM non relisibles sont préservés par défaut ; leur override explicite ne permet qu'un retour aux valeurs Windows. Les ombres sont additionnelles et le titre compagnon translucide n'est pas un flou du bureau. Les performances sur un grand nombre de fenêtres et la rétention mémoire de longue durée restent à mesurer : aucun résultat de stress général n'est revendiqué.
+
+## Recontrôle 0.1.1
+
+Source examinée : `69927cf` (commit complet dans la provenance Git du tag). Même ledger SHA-256 ci-dessus. Après correction du générateur Visual Studio, deux nouveaux clones Git et répertoires de compilation locaux donnent le même companion SHA-256 `93cf281a3fcaca7e8bf343e00ad0454f730a4962f4613467426c188992335861`. La différence avec la 0.1.0 vient du manifeste de version embarqué ; le code du runtime n'est pas modifié. Les 41 assertions de contrat, 19 assertions Windows et 36 contrôles process-v2 passent de nouveau. Le test process-v2 lit désormais la version du manifeste plutôt qu'une version de release codée dans sa fixture ; les exemples de validation SemVer restent inchangés.
+
+Observation complémentaire de la 0.1.0 avant ce changement de version : 100 désactivations/réactivations restaurent exactement le style et le mode alpha à chaque arrêt ; shutdown supprime le journal. Mémoire privée du companion : 2 801 664 octets au départ, 2 998 272 après 100 cycles, 4 440 064 en fin d'observation de 99 secondes. Handles 126 → 129 ; objets GDI 3 → 3 ; objets USER 10/11 actifs → 8 désactivés, sans croissance par cycle. CPU variable entre les trois périodes de 30 secondes : environ 5,04 / 7,61 / 0,31 secondes CPU. L'activité du bureau n'a pas été isolée : ces chiffres ne permettent pas d'annoncer un coût CPU constamment faible ou une absence de fuite sur une journée. Le gardien et les autres processus ne sont pas inclus dans cette mesure.
