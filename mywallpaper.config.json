@@ -1,0 +1,11 @@
+{
+  "native": {
+    "builds": [{
+      "id": "windows-x86_64",
+      "command": "powershell.exe",
+      "args": ["-NoLogo", "-NoProfile", "-File", "native/build.ps1", "-SkipHostQualification"],
+      "cwd": ".",
+      "outputs": ["native/out/windows-x86_64/companion.exe", "native/out/windows-x86_64"]
+    }]
+  }
+}

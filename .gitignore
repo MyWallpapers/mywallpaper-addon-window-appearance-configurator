@@ -1,0 +1,5 @@
+/.build/
+/native/out/
+/.mywallpaper/
+/evidence/*.png
+/evidence/*-result.json

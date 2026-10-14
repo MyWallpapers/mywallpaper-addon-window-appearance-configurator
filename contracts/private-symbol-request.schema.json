@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Proposition de demande technique de résolution privée, non prise en charge par MwHostApi v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "operation", "target", "module", "symbol", "deadlineMs"],
+  "properties": {
+    "schemaVersion": {"const": 1},
+    "operation": {"const": "resolve-private-symbol"},
+    "target": {"type": "object", "additionalProperties": false, "required": ["imageName", "pid", "creationTime"], "properties": {"imageName": {"type":"string","minLength":1}, "pid":{"type":"integer","minimum":1}, "creationTime":{"type":"string","pattern":"^[0-9]+$"}}},
+    "module": {"type":"object","additionalProperties":false,"required":["imageName","sha256","pdbIdentity"],"properties":{"imageName":{"type":"string","minLength":1},"sha256":{"type":"string","pattern":"^[a-f0-9]{64}$"},"pdbIdentity":{"type":"string","minLength":1}}},
+    "symbol": {"type":"string","minLength":1,"maxLength":2048},
+    "deadlineMs": {"type":"integer","minimum":1,"maximum":5000}
+  }
+}

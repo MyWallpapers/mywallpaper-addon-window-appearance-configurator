@@ -1,0 +1,570 @@
+{
+  "upstreamCommit": "8d60b4c4113a7f0a18b4b48a5443a199acf54805",
+  "scope": "A06 primary-family source metadata, not runtime qualification",
+  "mods": [
+    {
+      "id": "acrylic-effect-radius-changer",
+      "name": "Acrylic Effect Radius Changer",
+      "include": [
+        "dwm.exe"
+      ],
+      "source_url": "https://github.com/ramensoftware/windhawk-mods/blob/8d60b4c4113a7f0a18b4b48a5443a199acf54805/mods/acrylic-effect-radius-changer.wh.cpp",
+      "source_sha256": "4c8b63342a21e87e66276f87e7ad76c83d822a834db05ffd9f1e566869793d68",
+      "declared_license": [],
+      "license_evidence": "Pas de licence explicite dans les métadonnées ; défaut MIT annoncé par le README du dépôt, dépendances à vérifier",
+      "settings_keys": [
+        "radius",
+        "optimization"
+      ]
+    },
+    {
+      "id": "auto-custom-titlebar-colors",
+      "name": "Auto Custom Titlebar Colors",
+      "include": [
+        "*"
+      ],
+      "source_url": "https://github.com/ramensoftware/windhawk-mods/blob/8d60b4c4113a7f0a18b4b48a5443a199acf54805/mods/auto-custom-titlebar-colors.wh.cpp",
+      "source_sha256": "642b41f4ef8bcfecbad7c1edf460a49364c415a3f8655d2a39ffe80d29116248",
+      "declared_license": [],
+      "license_evidence": "Pas de licence explicite dans les métadonnées ; défaut MIT annoncé par le README du dépôt, dépendances à vérifier",
+      "settings_keys": [
+        "customColours",
+        "lightMode",
+        "darkMode",
+        "excludeMozilla"
+      ]
+    },
+    {
+      "id": "basic-classic-theme-ribbon-fix",
+      "name": "Basic/Classic Theme Ribbon Fix",
+      "include": [
+        "mspaint.exe",
+        "wordpad.exe",
+        "explorer.exe",
+        "Windows Style Builder.exe",
+        "WindowsLiveWriter.exe",
+        "wlmail.exe",
+        "MovieMaker.exe",
+        "WLXPhotoGallery.exe"
+      ],
+      "source_url": "https://github.com/ramensoftware/windhawk-mods/blob/8d60b4c4113a7f0a18b4b48a5443a199acf54805/mods/basic-classic-theme-ribbon-fix.wh.cpp",
+      "source_sha256": "03fd2916950f282868413ab861dcaeac5c8c74f3d901e58e5e8fadf9ef6005a8",
+      "declared_license": [],
+      "license_evidence": "Pas de licence explicite dans les métadonnées ; défaut MIT annoncé par le README du dépôt, dépendances à vérifier",
+      "settings_keys": []
+    },
+    {
+      "id": "basic-themer",
+      "name": "Basic Themer",
+      "include": [
+        "dwm.exe"
+      ],
+      "source_url": "https://github.com/ramensoftware/windhawk-mods/blob/8d60b4c4113a7f0a18b4b48a5443a199acf54805/mods/basic-themer.wh.cpp",
+      "source_sha256": "b399527cd56ff46c24b8c5aad6ad26ea4bb64c5e40e14fe25d0a353b912fd108",
+      "declared_license": [],
+      "license_evidence": "Pas de licence explicite dans les métadonnées ; défaut MIT annoncé par le README du dépôt, dépendances à vérifier",
+      "settings_keys": [
+        "whitelistmode",
+        "blacklist",
+        "whitelist",
+        "secureonly",
+        "noanims"
+      ]
+    },
+    {
+      "id": "borderless-fullscreen",
+      "name": "Borderless Fullscreen",
+      "include": [
+        "windhawk.exe"
+      ],
+      "source_url": "https://github.com/ramensoftware/windhawk-mods/blob/8d60b4c4113a7f0a18b4b48a5443a199acf54805/mods/borderless-fullscreen.wh.cpp",
+      "source_sha256": "409eacfc957f4a17a33f94fffed44b1934d33585d77659f10eb8124fb9d56724",
+      "declared_license": [],
+      "license_evidence": "Pas de licence explicite dans les métadonnées ; défaut MIT annoncé par le README du dépôt, dépendances à vérifier",
+      "settings_keys": [
+        "exeNames",
+        "windowSize"
+      ]
+    },
+    {
+      "id": "cef-titlebar-enabler-universal",
+      "name": "CEF/Spotify Tweaks",
+      "include": [
+        "spotify.exe",
+        "cefclient.exe"
+      ],
+      "source_url": "https://github.com/ramensoftware/windhawk-mods/blob/8d60b4c4113a7f0a18b4b48a5443a199acf54805/mods/cef-titlebar-enabler-universal.wh.cpp",
+      "source_sha256": "859921b86e81d9514f7bc9b8c87edbde173fc796175fa020170f75cd9ff0c76b",
+      "declared_license": [
+        "MIT"
+      ],
+      "license_evidence": "Licence déclarée : MIT",
+      "settings_keys": [
+        "showframe",
+        "showframeonothers",
+        "showmenu",
+        "showcontrols",
+        "transparentcontrols",
+        "transparentrendering",
+        "noforceddarkmode",
+        "forceextensions",
+        "blockupdates",
+        "ignoreminsize",
+        "playbackspeed",
+        "allowuntested"
+      ]
+    },
+    {
+      "id": "center-titlebar",
+      "name": "Center Titlebar",
+      "include": [
+        "dwm.exe"
+      ],
+      "source_url": "https://github.com/ramensoftware/windhawk-mods/blob/8d60b4c4113a7f0a18b4b48a5443a199acf54805/mods/center-titlebar.wh.cpp",
+      "source_sha256": "01372d7b8f267057e09d6f0da34fb6ed86f42f7dc160da6fc08fbdc5ee6355ac",
+      "declared_license": [],
+      "license_evidence": "Pas de licence explicite dans les métadonnées ; défaut MIT annoncé par le README du dépôt, dépendances à vérifier",
+      "settings_keys": []
+    },
+    {
+      "id": "chromium-native-titlebar",
+      "name": "Native titelebars in Chromium-based browsers",
+      "include": [
+        "chrome.exe",
+        "msedge.exe",
+        "chromium.exe",
+        "supermium.exe"
+      ],
+      "source_url": "https://github.com/ramensoftware/windhawk-mods/blob/8d60b4c4113a7f0a18b4b48a5443a199acf54805/mods/chromium-native-titlebar.wh.cpp",
+      "source_sha256": "988188a55b1b842d1dc1886eb16f4cd6a2dcf3d2788d6561894d7d7a9443ba9a",
+      "declared_license": [],
+      "license_evidence": "Pas de licence explicite dans les métadonnées ; défaut MIT annoncé par le README du dépôt, dépendances à vérifier",
+      "settings_keys": []
+    },
+    {
+      "id": "chromium-ncpaint-fix",
+      "name": "Chromium Frame Blackout Fix",
+      "include": [
+        "*"
+      ],
+      "source_url": "https://github.com/ramensoftware/windhawk-mods/blob/8d60b4c4113a7f0a18b4b48a5443a199acf54805/mods/chromium-ncpaint-fix.wh.cpp",
+      "source_sha256": "e9160cd7bf7b32a743e895eeaa8de2d01a1aa0a30be164bad9157660557ca64c",
+      "declared_license": [],
+      "license_evidence": "Pas de licence explicite dans les métadonnées ; défaut MIT annoncé par le README du dépôt, dépendances à vérifier",
+      "settings_keys": []
+    },
+    {
+      "id": "classic-browser-fix",
+      "name": "Fix browsers for Windows Classic theme",
+      "include": [
+        "msedge.exe",
+        "chrome.exe",
+        "chromium.exe",
+        "Skype.exe",
+        "steam.exe",
+        "brave.exe",
+        "chatgpt.exe"
+      ],
+      "source_url": "https://github.com/ramensoftware/windhawk-mods/blob/8d60b4c4113a7f0a18b4b48a5443a199acf54805/mods/classic-browser-fix.wh.cpp",
+      "source_sha256": "2bbe118e72074ec7589039dc59f3480eff7bb4a0c434fbb813acc9ced583caba",
+      "declared_license": [],
+      "license_evidence": "Pas de licence explicite dans les métadonnées ; défaut MIT annoncé par le README du dépôt, dépendances à vérifier",
+      "settings_keys": []
+    },
+    {
+      "id": "classic-maximized-windows-fix",
+      "name": "Fix Classic Theme Maximized Windows",
+      "include": [
+        "*"
+      ],
+      "source_url": "https://github.com/ramensoftware/windhawk-mods/blob/8d60b4c4113a7f0a18b4b48a5443a199acf54805/mods/classic-maximized-windows-fix.wh.cpp",
+      "source_sha256": "75e2f37af474a67bf26e3c31d87417a935f98cb1995efa78ef6fc3960c92cee8",
+      "declared_license": [],
+      "license_evidence": "Pas de licence explicite dans les métadonnées ; défaut MIT annoncé par le README du dépôt, dépendances à vérifier",
+      "settings_keys": []
+    },
+    {
+      "id": "custom-corner-radius",
+      "name": "Custom Window Corner Radius",
+      "include": [
+        "dwm.exe"
+      ],
+      "source_url": "https://github.com/ramensoftware/windhawk-mods/blob/8d60b4c4113a7f0a18b4b48a5443a199acf54805/mods/custom-corner-radius.wh.cpp",
+      "source_sha256": "5bb22cd77f75ae574e1a3b1863c6a93860f69cbbcd542443f4c36636022f969c",
+      "declared_license": [],
+      "license_evidence": "GPL signalé dans le préambule",
+      "settings_keys": [
+        "radius",
+        "smallRadius",
+        "tooltipRadius",
+        "roundMaximizedAndSnapped"
+      ]
+    },
+    {
+      "id": "disable-rounded-corners",
+      "name": "Disable rounded corners in Windows 11",
+      "include": [
+        "dwm.exe"
+      ],
+      "source_url": "https://github.com/ramensoftware/windhawk-mods/blob/8d60b4c4113a7f0a18b4b48a5443a199acf54805/mods/disable-rounded-corners.wh.cpp",
+      "source_sha256": "2e8cf310d0b4de83eba78b71785a4f9313cd9509f2840c193bcc2a5826b4f8af",
+      "declared_license": [],
+      "license_evidence": "GPL signalé dans le préambule",
+      "settings_keys": []
+    },
+    {
+      "id": "dwm-ghost-mods",
+      "name": "DWM Ghost Mods",
+      "include": [
+        "dwm.exe"
+      ],
+      "source_url": "https://github.com/ramensoftware/windhawk-mods/blob/8d60b4c4113a7f0a18b4b48a5443a199acf54805/mods/dwm-ghost-mods.wh.cpp",
+      "source_sha256": "147370d4619307adae36bdf8311921d9835b6187ccff03952bc920e3da67f618",
+      "declared_license": [],
+      "license_evidence": "Pas de licence explicite dans les métadonnées ; défaut MIT annoncé par le README du dépôt, dépendances à vérifier",
+      "settings_keys": [
+        "disableDwmFrames",
+        "useClassicTheme",
+        "frostPolicy"
+      ]
+    },
+    {
+      "id": "firefox-border-fix",
+      "name": "Firefox border fix for Classic theme",
+      "include": [
+        "firefox.exe"
+      ],
+      "source_url": "https://github.com/ramensoftware/windhawk-mods/blob/8d60b4c4113a7f0a18b4b48a5443a199acf54805/mods/firefox-border-fix.wh.cpp",
+      "source_sha256": "dde8425c4dc4eefaa22f179a3e136f518de6ecf03bdbd4ea74d179c86eef49e0",
+      "declared_license": [],
+      "license_evidence": "Pas de licence explicite dans les métadonnées ; défaut MIT annoncé par le README du dépôt, dépendances à vérifier",
+      "settings_keys": []
+    },
+    {
+      "id": "firefox-pip-disable-always-on-top",
+      "name": "Disable Firefox Picture-in-Picture Always on Top",
+      "include": [
+        "firefox.exe"
+      ],
+      "source_url": "https://github.com/ramensoftware/windhawk-mods/blob/8d60b4c4113a7f0a18b4b48a5443a199acf54805/mods/firefox-pip-disable-always-on-top.wh.cpp",
+      "source_sha256": "6c5bd537a1b251c5725266239ca231f111f0fa9e5dec464b730b8f927c6a8ab3",
+      "declared_license": [],
+      "license_evidence": "Pas de licence explicite dans les métadonnées ; défaut MIT annoncé par le README du dépôt, dépendances à vérifier",
+      "settings_keys": []
+    },
+    {
+      "id": "fix-basic-caption-text",
+      "name": "Fix Basic Caption Text",
+      "include": [
+        "*"
+      ],
+      "source_url": "https://github.com/ramensoftware/windhawk-mods/blob/8d60b4c4113a7f0a18b4b48a5443a199acf54805/mods/fix-basic-caption-text.wh.cpp",
+      "source_sha256": "a3fca6d673d0d4f7b6aaf60e557414d5594a644d443811541ac22795baa3c707",
+      "declared_license": [],
+      "license_evidence": "Pas de licence explicite dans les métadonnées ; défaut MIT annoncé par le README du dépôt, dépendances à vérifier",
+      "settings_keys": [
+        "smallicons"
+      ]
+    },
+    {
+      "id": "force-thick-frames",
+      "name": "Force thick frames",
+      "include": [
+        "*"
+      ],
+      "source_url": "https://github.com/ramensoftware/windhawk-mods/blob/8d60b4c4113a7f0a18b4b48a5443a199acf54805/mods/force-thick-frames.wh.cpp",
+      "source_sha256": "f7f4e16f159bbe2ace9fdeb10ce996308b45673e30f287db7da53ba0a1dd34c0",
+      "declared_license": [],
+      "license_evidence": "Pas de licence explicite dans les métadonnées ; défaut MIT annoncé par le README du dépôt, dépendances à vérifier",
+      "settings_keys": []
+    },
+    {
+      "id": "hide-titlebar-elements",
+      "name": "Hide Titlebar Icon and Text",
+      "include": [
+        "*"
+      ],
+      "source_url": "https://github.com/ramensoftware/windhawk-mods/blob/8d60b4c4113a7f0a18b4b48a5443a199acf54805/mods/hide-titlebar-elements.wh.cpp",
+      "source_sha256": "558b0de5ececd82c4ff2e0cd2da0ba85a20647a729f20ea5718d0dde56543c15",
+      "declared_license": [
+        "MIT"
+      ],
+      "license_evidence": "Licence déclarée : MIT",
+      "settings_keys": [
+        "hideIcon",
+        "hideText"
+      ]
+    },
+    {
+      "id": "invisible-borders",
+      "name": "Invisible Window Borders",
+      "include": [
+        "*"
+      ],
+      "source_url": "https://github.com/ramensoftware/windhawk-mods/blob/8d60b4c4113a7f0a18b4b48a5443a199acf54805/mods/invisible-borders.wh.cpp",
+      "source_sha256": "5d8459eb37f13d25be6f00f7511a76f2d3b2579adbcf8b59df977e7413df9846",
+      "declared_license": [],
+      "license_evidence": "Pas de licence explicite dans les métadonnées ; défaut MIT annoncé par le README du dépôt, dépendances à vérifier",
+      "settings_keys": [
+        "SpecialWindows"
+      ]
+    },
+    {
+      "id": "native-shadow-tuner",
+      "name": "Windows Shadows Tuner",
+      "include": [
+        "dwm.exe"
+      ],
+      "source_url": "https://github.com/ramensoftware/windhawk-mods/blob/8d60b4c4113a7f0a18b4b48a5443a199acf54805/mods/native-shadow-tuner.wh.cpp",
+      "source_sha256": "0cf19b592d58ae19534e011b67354ed62265254cbe8f02d4516edf8b50261d28",
+      "declared_license": [],
+      "license_evidence": "Pas de licence explicite dans les métadonnées ; défaut MIT annoncé par le README du dépôt, dépendances à vérifier",
+      "settings_keys": [
+        "opacityPercent",
+        "sizePercent",
+        "dynamicShadows",
+        "lightPosition",
+        "dimmingStrength",
+        "fadeDistance",
+        "fadeCurve"
+      ]
+    },
+    {
+      "id": "native-titlebars-uwp-lite",
+      "name": "Remove UWP titlebars Lite",
+      "include": [
+        "ApplicationFrameHost.exe",
+        "explorer.exe"
+      ],
+      "source_url": "https://github.com/ramensoftware/windhawk-mods/blob/8d60b4c4113a7f0a18b4b48a5443a199acf54805/mods/native-titlebars-uwp-lite.wh.cpp",
+      "source_sha256": "48fec200e911a1e7c4af6e8341647f56668185ce276cd35e0c3df2b09884a972",
+      "declared_license": [],
+      "license_evidence": "Pas de licence explicite dans les métadonnées ; défaut MIT annoncé par le README du dépôt, dépendances à vérifier",
+      "settings_keys": []
+    },
+    {
+      "id": "per-app-titlebar-buttons",
+      "name": "Per-App Titlebar Buttons",
+      "include": [
+        "*"
+      ],
+      "source_url": "https://github.com/ramensoftware/windhawk-mods/blob/8d60b4c4113a7f0a18b4b48a5443a199acf54805/mods/per-app-titlebar-buttons.wh.cpp",
+      "source_sha256": "2ee0a8cc881a49afa5f080c3229b752ce1d1bc9547cd2afab783635c883db457",
+      "declared_license": [
+        "MIT"
+      ],
+      "license_evidence": "Licence déclarée : MIT",
+      "settings_keys": [
+        "applications"
+      ]
+    },
+    {
+      "id": "resizable-discord",
+      "name": "Discord Transparency Resize Fix",
+      "include": [
+        "discord.exe"
+      ],
+      "source_url": "https://github.com/ramensoftware/windhawk-mods/blob/8d60b4c4113a7f0a18b4b48a5443a199acf54805/mods/resizable-discord.wh.cpp",
+      "source_sha256": "f027bc7c6aefc92676924275c9aeee128ad01c44425b77d1969c10dcb21acab0",
+      "declared_license": [],
+      "license_evidence": "Pas de licence explicite dans les métadonnées ; défaut MIT annoncé par le README du dépôt, dépendances à vérifier",
+      "settings_keys": []
+    },
+    {
+      "id": "ribbon-caption-icon-fix",
+      "name": "UIRibbon Caption Icon Fix",
+      "include": [
+        "mspaint.exe",
+        "explorer.exe",
+        "wordpad.exe"
+      ],
+      "source_url": "https://github.com/ramensoftware/windhawk-mods/blob/8d60b4c4113a7f0a18b4b48a5443a199acf54805/mods/ribbon-caption-icon-fix.wh.cpp",
+      "source_sha256": "41df0366c981dea5347be5396254083d1dd1d3f410ce513b322b769935d6d2ad",
+      "declared_license": [],
+      "license_evidence": "Pas de licence explicite dans les métadonnées ; défaut MIT annoncé par le README du dépôt, dépendances à vérifier",
+      "settings_keys": []
+    },
+    {
+      "id": "scroll-window-opacity",
+      "name": "Scroll Window Opacity",
+      "include": [
+        "windhawk.exe"
+      ],
+      "source_url": "https://github.com/ramensoftware/windhawk-mods/blob/8d60b4c4113a7f0a18b4b48a5443a199acf54805/mods/scroll-window-opacity.wh.cpp",
+      "source_sha256": "33e5f1e2990a67bbf0b0ef72c944cdd02ecf1a6922b3d6d1d6f122282ba0adfd",
+      "declared_license": [],
+      "license_evidence": "Pas de licence explicite dans les métadonnées ; défaut MIT annoncé par le README du dépôt, dépendances à vérifier",
+      "settings_keys": [
+        "modifierKey",
+        "opacityStep",
+        "minOpacity"
+      ]
+    },
+    {
+      "id": "standard-title-bar-colors",
+      "name": "Explorer Standard Title Bar Colors",
+      "include": [
+        "explorer.exe"
+      ],
+      "source_url": "https://github.com/ramensoftware/windhawk-mods/blob/8d60b4c4113a7f0a18b4b48a5443a199acf54805/mods/standard-title-bar-colors.wh.cpp",
+      "source_sha256": "6998e02fa8d00a6d6d9f790b1e04d237f7aefdfd9d47c4eef823729cab235ee5",
+      "declared_license": [],
+      "license_evidence": "Pas de licence explicite dans les métadonnées ; défaut MIT annoncé par le README du dépôt, dépendances à vérifier",
+      "settings_keys": []
+    },
+    {
+      "id": "titlebar-for-everyone",
+      "name": "Titlebar For Everyone",
+      "include": [
+        "chrome.exe",
+        "brave.exe",
+        "msedge.exe",
+        "opera.exe",
+        "yandex.exe",
+        "whale.exe",
+        "supermium.exe",
+        "chromium.exe",
+        "devenv.exe",
+        "steamwebhelper.exe",
+        "PowerToys.*.exe",
+        "olk.exe",
+        "WebViewHost.exe",
+        "winword.exe",
+        "excel.exe",
+        "powerpnt.exe",
+        "msaccess.exe",
+        "onenote.exe",
+        "outlook.exe",
+        "mspub.exe",
+        "hwp.exe",
+        "Photos.exe",
+        "MuseScore*.exe",
+        "ms-teams.exe"
+      ],
+      "source_url": "https://github.com/ramensoftware/windhawk-mods/blob/8d60b4c4113a7f0a18b4b48a5443a199acf54805/mods/titlebar-for-everyone.wh.cpp",
+      "source_sha256": "153115264f2f0c06281be3527fd05f52de4a13131619b566999a2cceb192460c",
+      "declared_license": [
+        "MIT"
+      ],
+      "license_evidence": "Licence déclarée : MIT",
+      "settings_keys": [
+        "btnfacechrome",
+        "clientedge",
+        "notoolwinsteam",
+        "nosteamhtmlinject"
+      ]
+    },
+    {
+      "id": "translucent-windows",
+      "name": "Translucent Windows",
+      "include": [
+        "*"
+      ],
+      "source_url": "https://github.com/ramensoftware/windhawk-mods/blob/8d60b4c4113a7f0a18b4b48a5443a199acf54805/mods/translucent-windows.wh.cpp",
+      "source_sha256": "0f88018db7c22fd37484c763182bc5587bdb21ad4e869c5d7099f6faaef3fcd1",
+      "declared_license": [],
+      "license_evidence": "Pas de licence explicite dans les métadonnées ; défaut MIT annoncé par le README du dépôt, dépendances à vérifier",
+      "settings_keys": [
+        "RenderingMod",
+        "BackgroundEffects",
+        "FlyoutsEffects",
+        "RuledPrograms"
+      ]
+    },
+    {
+      "id": "w11-dwm-fix",
+      "name": "Bring Back the Borders!",
+      "include": [
+        "dwm.exe"
+      ],
+      "source_url": "https://github.com/ramensoftware/windhawk-mods/blob/8d60b4c4113a7f0a18b4b48a5443a199acf54805/mods/w11-dwm-fix.wh.cpp",
+      "source_sha256": "cca9417fd80cefd0072c423c785669dbc18020f7cbbda8658b36dabda197ea07",
+      "declared_license": [],
+      "license_evidence": "Pas de licence explicite dans les métadonnées ; défaut MIT annoncé par le README du dépôt, dépendances à vérifier",
+      "settings_keys": []
+    },
+    {
+      "id": "win10-colored-borders",
+      "name": "Windows 10 Colorization Tweaks",
+      "include": [
+        "dwm.exe"
+      ],
+      "source_url": "https://github.com/ramensoftware/windhawk-mods/blob/8d60b4c4113a7f0a18b4b48a5443a199acf54805/mods/win10-colored-borders.wh.cpp",
+      "source_sha256": "f96543695877c8e1b4e08cb9149d0d7d6ef9b2efe5a505da88b6124d017a0fd9",
+      "declared_license": [],
+      "license_evidence": "Pas de licence explicite dans les métadonnées ; défaut MIT annoncé par le README du dépôt, dépendances à vérifier",
+      "settings_keys": [
+        "colorborders",
+        "windowcolor"
+      ]
+    },
+    {
+      "id": "win11-accent-border",
+      "name": "Windows 11 Accent Window Border",
+      "include": [
+        "*"
+      ],
+      "source_url": "https://github.com/ramensoftware/windhawk-mods/blob/8d60b4c4113a7f0a18b4b48a5443a199acf54805/mods/win11-accent-border.wh.cpp",
+      "source_sha256": "310d0ff221cd8f3eaefd5e33b55665d9323ee11e237391c8fde65bdf691a9f58",
+      "declared_license": [],
+      "license_evidence": "Pas de licence explicite dans les métadonnées ; défaut MIT annoncé par le README du dépôt, dépendances à vérifier",
+      "settings_keys": [
+        "SpecialWindows",
+        "AdditionalEvents"
+      ]
+    },
+    {
+      "id": "win11-custom-title-bar-colours",
+      "name": "Windows 11 Custom Title Bar Colours",
+      "include": [
+        "*"
+      ],
+      "source_url": "https://github.com/ramensoftware/windhawk-mods/blob/8d60b4c4113a7f0a18b4b48a5443a199acf54805/mods/win11-custom-title-bar-colours.wh.cpp",
+      "source_sha256": "d77551e63aeb83c01527cbae0b3324ff5191b88782c47aa6328d3b93fe3d2f66",
+      "declared_license": [],
+      "license_evidence": "Pas de licence explicite dans les métadonnées ; défaut MIT annoncé par le README du dépôt, dépendances à vérifier",
+      "settings_keys": [
+        "UseImmersiveDarkMode",
+        "ActiveColour",
+        "InactiveColour"
+      ]
+    },
+    {
+      "id": "window-border-customizer",
+      "name": "Window Border Customizer",
+      "include": [
+        "dwm.exe",
+        "explorer.exe"
+      ],
+      "source_url": "https://github.com/ramensoftware/windhawk-mods/blob/8d60b4c4113a7f0a18b4b48a5443a199acf54805/mods/window-border-customizer.wh.cpp",
+      "source_sha256": "ac1a3269cf4d14cb2768416f7bdc0bf92219f8d50fdc71c30eb76d586cfeb9da",
+      "declared_license": [
+        "MIT"
+      ],
+      "license_evidence": "Licence déclarée : MIT",
+      "settings_keys": [
+        "normal_window_border",
+        "maximized_window_border",
+        "context_menu_border",
+        "tooltip_border"
+      ]
+    },
+    {
+      "id": "window-opacity",
+      "name": "Window Opacity",
+      "include": [
+        "explorer.exe"
+      ],
+      "source_url": "https://github.com/ramensoftware/windhawk-mods/blob/8d60b4c4113a7f0a18b4b48a5443a199acf54805/mods/window-opacity.wh.cpp",
+      "source_sha256": "da2835d583fc612e36da67854e1c544a8347bc5a8b5d4cc552c6a12422d48924",
+      "declared_license": [
+        "MIT"
+      ],
+      "license_evidence": "Licence déclarée : MIT",
+      "settings_keys": [
+        "Modifier",
+        "CycleKeys"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "system": {
+    "label": "Windows",
+    "description": "Conserver les couleurs et matériaux Windows.",
+    "dark": {
+      "nativeMaterial": "system",
+      "nativeColors": false,
+      "corner": "system",
+      "borderMode": "system",
+      "shadowMode": "system",
+      "titleMode": "native"
+    },
+    "light": {}
+  },
+  "porcelain": {
+    "label": "Porcelaine",
+    "description": "Une surface ivoire lumineuse et un liseré sauge.",
+    "dark": {
+      "nativeMaterial": "opaque",
+      "nativeColors": true,
+      "corner": "round",
+      "borderMode": "solid",
+      "borderColor": "#A5B8AC",
+      "inactiveBorder": "#586763",
+      "captionColor": "#293631",
+      "inactiveCaption": "#252C29",
+      "textColor": "#F1F5F0",
+      "inactiveText": "#B8C5BD",
+      "titleStart": "#293631",
+      "titleEnd": "#293631",
+      "titleFill": "solid",
+      "shadowMode": "soft",
+      "shadowColor": "#071710",
+      "shadowOpacity": 30,
+      "titleMode": "companion"
+    },
+    "light": {
+      "borderColor": "#82968B",
+      "inactiveBorder": "#CED8D1",
+      "captionColor": "#F5F4EC",
+      "inactiveCaption": "#E9EDE6",
+      "textColor": "#263C32",
+      "inactiveText": "#556A5F",
+      "titleStart": "#F5F4EC",
+      "titleEnd": "#F5F4EC"
+    }
+  },
+  "nocturne": {
+    "label": "Nocturne",
+    "description": "Bleu nuit, titre centré et contour cobalt.",
+    "dark": {
+      "nativeMaterial": "mica",
+      "nativeColors": true,
+      "corner": "round",
+      "borderMode": "solid",
+      "borderColor": "#6889E8",
+      "inactiveBorder": "#354461",
+      "captionColor": "#1C2740",
+      "inactiveCaption": "#192131",
+      "textColor": "#F1F5FF",
+      "inactiveText": "#A8B7D3",
+      "titleStart": "#1C2740",
+      "titleEnd": "#253755",
+      "titleFill": "gradient",
+      "titleAlign": "center",
+      "shadowMode": "soft",
+      "shadowColor": "#070E25",
+      "shadowOpacity": 55,
+      "titleMode": "companion"
+    },
+    "light": {
+      "captionColor": "#E0E7F5",
+      "inactiveCaption": "#E9EDF4",
+      "textColor": "#192A48",
+      "inactiveText": "#516386",
+      "titleStart": "#E0E7F5",
+      "titleEnd": "#C3D4EF"
+    }
+  },
+  "aurora": {
+    "label": "Aurore",
+    "description": "Un dégradé profond vert et bleu, une bordure irisée.",
+    "dark": {
+      "nativeMaterial": "acrylic",
+      "nativeColors": true,
+      "corner": "round",
+      "borderMode": "gradient",
+      "borderColor": "#66D8CA",
+      "borderEnd": "#748FF4",
+      "inactiveBorder": "#3F626B",
+      "captionColor": "#183E43",
+      "inactiveCaption": "#1D2E39",
+      "textColor": "#EFFDFB",
+      "inactiveText": "#A1C5CF",
+      "titleFill": "gradient",
+      "titleStart": "#183E43",
+      "titleEnd": "#343C68",
+      "titleAlign": "center",
+      "shadowMode": "soft",
+      "shadowColor": "#071D28",
+      "shadowOpacity": 50,
+      "titleMode": "companion"
+    },
+    "light": {
+      "titleStart": "#D3F0E8",
+      "titleEnd": "#DCE3FA",
+      "textColor": "#183844",
+      "inactiveText": "#466574",
+      "captionColor": "#D3F0E8",
+      "inactiveCaption": "#E5EEEF",
+      "borderColor": "#368D7E",
+      "borderEnd": "#6376CA"
+    }
+  },
+  "ember": {
+    "label": "Braise",
+    "description": "Cuivre, brun profond et typographie chaleureuse.",
+    "dark": {
+      "nativeMaterial": "opaque",
+      "nativeColors": true,
+      "corner": "small",
+      "borderMode": "solid",
+      "borderColor": "#D59B65",
+      "inactiveBorder": "#735848",
+      "captionColor": "#3C2A23",
+      "inactiveCaption": "#302824",
+      "textColor": "#FFF2DD",
+      "inactiveText": "#D4BDA6",
+      "titleStart": "#3C2A23",
+      "titleEnd": "#68402C",
+      "titleFill": "gradient",
+      "titleFont": "Georgia",
+      "shadowMode": "soft",
+      "shadowColor": "#1B0903",
+      "shadowOpacity": 48,
+      "titleMode": "companion"
+    },
+    "light": {
+      "captionColor": "#F4E5D3",
+      "inactiveCaption": "#EEE8DE",
+      "textColor": "#4C2D1F",
+      "inactiveText": "#795B49",
+      "titleStart": "#F4E5D3",
+      "titleEnd": "#E5C7A1"
+    }
+  },
+  "graphite": {
+    "label": "Graphite",
+    "description": "Un cadre carré sobre et contrasté pour travailler.",
+    "dark": {
+      "nativeMaterial": "opaque",
+      "nativeColors": true,
+      "corner": "square",
+      "borderMode": "solid",
+      "borderColor": "#9AA5B1",
+      "inactiveBorder": "#414852",
+      "captionColor": "#22272E",
+      "inactiveCaption": "#202429",
+      "textColor": "#F5F7FA",
+      "inactiveText": "#B3BDC9",
+      "titleStart": "#22272E",
+      "titleEnd": "#22272E",
+      "titleFill": "solid",
+      "shadowMode": "system",
+      "titleMode": "companion"
+    },
+    "light": {
+      "borderColor": "#657180",
+      "inactiveBorder": "#B4BDC8",
+      "captionColor": "#F0F2F5",
+      "inactiveCaption": "#E9ECF0",
+      "textColor": "#222C38",
+      "inactiveText": "#566577",
+      "titleStart": "#F0F2F5",
+      "titleEnd": "#F0F2F5"
+    }
+  },
+  "frost": {
+    "label": "Givre",
+    "description": "Matériau acrylique natif et contours discrets.",
+    "dark": {
+      "nativeMaterial": "acrylic",
+      "nativeColors": true,
+      "corner": "round",
+      "borderMode": "solid",
+      "borderColor": "#A7C4D5",
+      "inactiveBorder": "#456075",
+      "captionColor": "#273D4A",
+      "inactiveCaption": "#26333C",
+      "textColor": "#F0FAFF",
+      "inactiveText": "#B0C7D5",
+      "titleMode": "native",
+      "shadowMode": "soft",
+      "shadowColor": "#0D2634",
+      "shadowOpacity": 38
+    },
+    "light": {
+      "captionColor": "#E3EFF6",
+      "inactiveCaption": "#E9EEF2",
+      "textColor": "#243E4D",
+      "inactiveText": "#506B7A",
+      "borderColor": "#7199AE"
+    }
+  }
+}

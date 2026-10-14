@@ -1,0 +1,165 @@
+{
+  "date": "2026-10-13",
+  "scope": "local-development-evidence-not-a-decision",
+  "sources": {
+    ".gitattributes": "d09e57a6781da66ccf99855f4c652dd23dc23e728c6fb828d385cfc2037d6c9b",
+    ".gitignore": "20a0923eb6cbcab220d88738273fbb829556cb56c59ac5ec479f5c6f9295cec9",
+    "CMakeLists.txt": "8eff3d0dea182b97f2aa071ec98f316f30df87d858da78363a7b3ff652b9d36e",
+    "LICENSE": "07c869e8100bedf67079f778daa5ef535b99579ba175f5764cdda1580a7d2f8f",
+    "README.md": "1a69c12826f1f86413c8a3e46fdd5167f6e36c2cd48b214f0acffea4e9f4164c",
+    "THIRD_PARTY_NOTICES.md": "69c8866b9fc87c5bd3e2c52a207b1fa1423662fb024947e58cbce86119eb68b1",
+    "contracts/private-symbol-request.schema.json": "225ddac969ab11cca7875199518c3b72863c70dee90524e1615a523270b26f68",
+    "docs/native-capabilities.md": "f97faae711270b654d4f2dc23224419e5a2eee78e609703b1806937912b9eedd",
+    "docs/qualification.md": "d40069c7c2cee6d4854364bc19210bf3874c8326893054ae9d48732d2ecf45b4",
+    "docs/source-study.md": "375175dcae06b0bcce8f1f38b67eaff12f05aafdf05f6061e3d047ed8b0196e6",
+    "evidence/a06-sources.json": "625357d15f363fd2a1690858a414e2e9b9da4c8537e262e468a04bd4223826a1",
+    "include/appearance.hpp": "666583dbe030a91b43728f65215c4ed1e17d0ad8475bad65bbbcd85889645fd5",
+    "manifest.json": "934b3c2cc396156f3086840cfb684c6b8d709d15fff0c1eb1160e359498df401",
+    "native/build.ps1": "90986b445929c08fd6933d54d01c30c0963f7e12290ab0d5c1fd0d71f91c4220",
+    "notices/native-engine.LICENSE.MIT": "07c869e8100bedf67079f778daa5ef535b99579ba175f5764cdda1580a7d2f8f",
+    "notices/nlohmann-json.LICENSE.MIT": "46a65cffd1ea955132d95a8dd921640714a8d6b537d2e4e482d31145ae95b603",
+    "profiles/profiles.json": "d67cc268ed521d3419179b51ca8855a2de62b0244ed86fe465e2143875867ea4",
+    "src/config.cpp": "10cdc47fb06f41eb4fbfffbbfd10fbb0864efe35ca7e04182bb43b2cf2161b58",
+    "src/main.cpp": "470a7dccd9c85e1179387beaf4c25cf577a7b3b868cf0653c6bfe0b7130b5169",
+    "src/renderer.cpp": "b97da0e8f1a653dee49f077efc4425733066adfe2c322bd640cee65585418e2a",
+    "src/runtime.cpp": "5622cbf65fb2009082198aca9547c4c462f0484c3ac6e7073546b5e4beca1be9",
+    "src/settings_generated.hpp": "48a9b489ec009ea584b7442c0098a544e72103889650a45b8a9e29476a4c85b5",
+    "src/wire.cpp": "5803b1995cb8d5cdf298259fae409d355364400fcf6870ddc7d99247604e0b3a",
+    "tests/integration.py": "0af49e02d18d6b5a89396133a6d2473fc5dc6bf3e5db38a5a5eb251c15d1469d",
+    "tests/private-capability.test.mjs": "55e8782bd3d4f745869ce86ec6bdb17f4325bd4f0277e0ea7ef211e93bf394ff",
+    "tests/tests.cpp": "c49f29b53665eb459be2c3377d3524044924a235b318fc0e0660f9d25d316573",
+    "tools/evidence.mjs": "3cc0a9d6c2ee69b0a977665b017f0cdee8f5ca15a4402280cdf5773c11072d53",
+    "tools/generate.mjs": "53ed5fc1812c28f9f9ce2e57d56b1f6d460a75e88e70a7bf4febbc5b60d34d2f",
+    "tools/private-capability.mjs": "922937b6b5cbb7586ed703e5f5dfdf85fa40c286ee8c2df6eba015c6e616cf85",
+    "tools/validate-manifest.mjs": "d448972d2e8e3b193a577b9f5f2611e4e06f86d9facaaf35072c4b201db6804d"
+  },
+  "dependencies": {
+    "engineRevision": "ff32c520dd4ccd9073c9dc001a180e886d50ab63",
+    "engineFiles": {
+      "sdk/CMakeLists.txt": "cf5401ded5a05463de81b2ccb9ab7bcb08211724d21bbc8617f726853ec678f4",
+      "include/mw_native_sdk.h": "61b4d9f44cdafceb235d42374cf6e0a5ee9d0583ebc5f6c2763f8fed1018f2a5",
+      "third_party/nlohmann/json.hpp": "aaf127c04cb31c406e5b04a63f1ae89369fccde6d8fa7cdda1ed4f32dfc5de63",
+      "third_party/nlohmann/LICENSE.MIT": "46a65cffd1ea955132d95a8dd921640714a8d6b537d2e4e482d31145ae95b603"
+    },
+    "ledgerSha256": "ed477485a495b1e6ff9e931dfae5378461378c4c57977a4e436e753ca9ddba6c",
+    "sdkValidatorSha256": "d6dff90a6a4a4783cfd76b5cf0c7d39995b5214c125f4417cf2302d28bbcb70f"
+  },
+  "binary": {
+    "path": "native/out/windows-x86_64/companion.exe",
+    "sha256": "d019333d8b5cb5e96a8b8b77c831a5093bd868f08054fde8bdb71b00434bf413"
+  },
+  "results": {
+    "windows": {
+      "checks": 19,
+      "diagnostics": {
+        "attributeWrites": 16,
+        "lastIssue": "",
+        "managedWindows": 0,
+        "mechanism": "external-win32-dwm-and-decoration",
+        "rejectedWindows": 0,
+        "restoreFailures": 0,
+        "unsupportedOperations": 9
+      },
+      "dwmGetterProbe": {
+        "20": {
+          "hresult": 0,
+          "value": 0
+        },
+        "33": {
+          "hresult": 0,
+          "value": 0
+        },
+        "34": {
+          "hresult": -2147024809,
+          "value": 0
+        },
+        "35": {
+          "hresult": -2147024809,
+          "value": 0
+        },
+        "36": {
+          "hresult": -2147024809,
+          "value": 0
+        },
+        "38": {
+          "hresult": 0,
+          "value": 0
+        }
+      },
+      "mechanism": "real HWND + successful DWM setters, styles, opacity, region, placement, restore ownership",
+      "scope": "test-owned Win32 host; no Notepad, Chromium, DWM injection, Windows 10, or multi-monitor qualification; unreadable colors return to Windows defaults only with explicit setting",
+      "successfulNativeWrites": [
+        {
+          "applied": 1,
+          "key": 20,
+          "original": 0
+        },
+        {
+          "applied": 1,
+          "key": 33,
+          "original": 0
+        },
+        {
+          "applied": 11176038,
+          "key": 34,
+          "original": 4294967295
+        },
+        {
+          "applied": 5583633,
+          "key": 35,
+          "original": 4294967295
+        },
+        {
+          "applied": 13875112,
+          "key": 36,
+          "original": 4294967295
+        },
+        {
+          "applied": 3,
+          "key": 38,
+          "original": 0
+        }
+      ]
+    },
+    "wire": {
+      "checks": [
+        "split init applies title + opacity to a separate Win32 host",
+        "second executable receives its own profile / opacity rule",
+        "two distinct application processes managed together",
+        "exact test-owned companion title found",
+        "companion Maximize button controls its host",
+        "maximized host retains its original caption",
+        "restoring host reapplies companion title",
+        "exact test-owned companion title found",
+        "companion Minimize button controls its host",
+        "restoring minimized host reapplies its profile",
+        "second session rejected",
+        "invalid settings retain accepted appearance",
+        "disable restores styles and alpha mode",
+        "disable restores the second host independently",
+        "reactivate after disable",
+        "explicit shutdown succeeds",
+        "explicit shutdown restores",
+        "restoration journal removed",
+        "eof session applied",
+        "eof restores through companion / independent guardian",
+        "eof also restores the second host",
+        "eof journal cleared",
+        "kill session applied",
+        "kill restores through companion / independent guardian",
+        "kill also restores the second host",
+        "kill journal cleared",
+        "close-button session applied",
+        "exact test-owned companion title found",
+        "companion Close button closes only its test-owned host",
+        "second host remains managed after first host closes",
+        "shutdown after target destruction succeeds",
+        "remaining host restored after target destruction",
+        "orphan continuation rejected"
+      ],
+      "count": 33,
+      "scope": "separate test-owned Win32 host, real companion process-v2, actual forced owner termination and guardian recovery",
+      "windows": 26200
+    }
+  }
+}
